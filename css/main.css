@@ -1,0 +1,120 @@
+.container {
+	width: 1090px;
+	margin: 0 auto;
+}
+
+Div {
+	border: 0px solid #333;
+	padding: 0;
+	margin: 0;
+}
+
+Img {
+	padding: 0;
+	margin: 0;
+}
+
+.full-width {
+	width: 1088px;
+	margin: 0;
+	padding: 0;
+	float: none;
+}
+
+.half-width {
+	width: 542px;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#homelink {
+	text-align: left;
+	padding: 15 0 0 0;
+	text-align: left;
+	display: inline;
+	float: left;
+}
+#homelink a {
+	text-decoration: none;
+	font-family: Balboa-plus-fill;
+	font-size: 35px;
+	color: #4D9DAB;
+	height: auto;
+}
+#homelink a:hover {
+	color: #666660;
+}
+Header ul li {
+	list-style: none;
+	display: inline;
+	font-size: 35px;
+	text-align: left;
+}
+
+Header a {
+	text-decoration: none;
+	font-family: Balboa-plus-fill;
+	font-size: 35px;
+	color: #4D9DAB;
+}
+
+Header a:hover {
+	color: #666660;
+}
+
+Nav {
+	text-align: right;
+	font-family: Balboa-plus-fill;
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+	color: #4D9DAB;
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+Nav ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 35px;
+	padding-left: 15px;
+}
+
+Nav a {
+	text-decoration: none;
+	color: #4D9DAB;
+	height: 75px;
+}
+
+Nav a:hover {
+	color: #666660;
+}
+
+Body {
+	
+}
+
+H1 {
+	font-family: Balboa-plus-fill;
+	text-decoration: none;
+	font-size: 35px;
+	font-weight: normal;
+	font-style: normal;
+	color: #4D9DAB;
+	padding-left: 0;
+	padding-bottom: 0;
+	padding-right: 0;
+	padding-top: 0;
+}
+
+P {
+	font-family: arial;
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+}
+
+
