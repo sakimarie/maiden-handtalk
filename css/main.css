@@ -1,28 +1,31 @@
-.container {
-	width: 1090px;
+/*.container {
+	width: auto;
 	margin: 0 auto;
-}
+}*/
 
-Div {
-	border: 0px solid #333;
+
+div {
+	border: 0 solid #333;
 	padding: 0;
 	margin: 0;
 }
 
-Img {
+img {
 	padding: 0;
 	margin: 0;
 }
 
 .full-width {
-	width: 1088px;
+	max-width: 1088px;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	float: none;
 }
 
 .half-width {
-	width: 542px;
+	width: 50%;
+	max-width: 544px;
 	float: left;
 	padding: 0;
 	margin: 0;
@@ -30,40 +33,46 @@ Img {
 
 #homelink {
 	text-align: left;
-	padding: 15 0 0 0;
+	padding: 50px 0 0 0;
 	text-align: left;
 	display: inline;
 	float: left;
+	/*height: 100px;*/
 }
 #homelink a {
 	text-decoration: none;
 	font-family: Balboa-plus-fill;
 	font-size: 35px;
 	color: #4D9DAB;
-	height: auto;
 }
 #homelink a:hover {
 	color: #666660;
 }
-Header ul li {
+/*Header ul li {
 	list-style: none;
 	display: inline;
 	font-size: 35px;
 	text-align: left;
-}
+}*/
 
-Header a {
+header a {
 	text-decoration: none;
 	font-family: Balboa-plus-fill;
 	font-size: 35px;
 	color: #4D9DAB;
 }
 
-Header a:hover {
+header a:hover {
 	color: #666660;
 }
 
-Nav {
+/*#navigationdiv {
+	padding: 0;
+	margin: 0;
+	/*height: 100px;*!/
+}*/
+
+nav {
 	text-align: right;
 	font-family: Balboa-plus-fill;
 	text-decoration: none;
@@ -72,32 +81,36 @@ Nav {
 	color: #4D9DAB;
 	width: auto;
 	height: auto;
-	padding: 0;
+	padding: 50px 0 0 0;
 	margin: 0;
+	word-spacing: 700%;
 }
 
-Nav ul li {
+/*nav ul {
 	list-style: none;
 	display: inline-block;
 	font-size: 35px;
 	padding-left: 15px;
+}*/
+nav ul li {
+	display: inline-block;
 }
 
-Nav a {
+nav a {
 	text-decoration: none;
 	color: #4D9DAB;
-	height: 75px;
+	/*height: 75px;*/
 }
 
-Nav a:hover {
+nav a:hover {
 	color: #666660;
 }
 
-Body {
+body {
 	
 }
 
-H1 {
+h1 {
 	font-family: Balboa-plus-fill;
 	text-decoration: none;
 	font-size: 35px;
@@ -110,6 +123,11 @@ H1 {
 	padding-top: 0;
 }
 
+h2 {
+	font-family: Balboa-plus-fill;
+	font-size: 20px;
+	color: #999999;
+}
 P {
 	font-family: arial;
 	text-decoration: none;
